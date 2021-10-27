@@ -73,7 +73,7 @@
     color: #ffffff; 
     transition: .3s ease;
 }
-.document-header__nav a:hover {
+.document-header__nav>a:hover {
     color: #c7b299;
 }
 .document-header__menu-button {
