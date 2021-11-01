@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: min-content 1fr min-content;
-    background-image: url("../img/header_img/bg_photo_11949.png");
+    background-image: url("img/header_img/bg_photo_11949.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@
     top: -8px;
     left: -65px;
     content: "";
-    background-image: url("../svg/header_icons/logo_waxom.svg");
+    background-image: url("svg/header_icons/logo_waxom.svg");
     fill: #ffffff;
     width: 64px;
     height: 56px;
@@ -95,10 +95,10 @@
     transition: .2s ease;
 }
 .document-header__shop-button {
-    background-image: url("../svg/header_icons/shop_icon.svg");
+    background-image: url("svg/header_icons/shop_icon.svg");
 }
 .document-header__search-button {
-    background-image: url("../svg/header_icons/search_icon.svg");
+    background-image: url("svg/header_icons/search_icon.svg");
 }
 .document-header__shop-button:hover,
 .document-header__search-button:hover {
@@ -106,11 +106,11 @@
 }
 .document-header__shop-button:hover,
 .document-header__shop-button:focus {
-    background-image: url("../svg/header_icons/shop_icon_active.svg");
+    background-image: url("svg/header_icons/shop_icon_active.svg");
 }
 .document-header__search-button:hover,
 .document-header__search-button:focus {
-    background-image: url("../svg/header_icons/search_icon_active.svg");
+    background-image: url("svg/header_icons/search_icon_active.svg");
 }
 .header-slider-conteiner {
     width: 100%;
@@ -139,21 +139,21 @@
     transition: .2s ease;
 }
 .header-slider__left-button {
-    background-image: url("../svg/header_icons/left_arrow.svg");
+    background-image: url("svg/header_icons/left_arrow.svg");
 }
 .header-slider__right-button {
-    background-image: url("../svg/header_icons/right_arrow.svg");
+    background-image: url("svg/header_icons/right_arrow.svg");
 }
 .header-slider__button:hover {
     cursor: pointer;
 }
 .header-slider__left-button:hover,
 .header-slider__left-button:focus {
-    background-image: url("../svg/header_icons/left_arrow_active.svg");
+    background-image: url("svg/header_icons/left_arrow_active.svg");
 }
 .header-slider__right-button:hover,
 .header-slider__right-button:focus {
-    background-image: url("../svg/header_icons/right_arrow_active.svg");
+    background-image: url("svg/header_icons/right_arrow_active.svg");
 }
 .header-slider__slide-visivility {
     display: flex;
@@ -344,16 +344,16 @@
     cursor: pointer;
 }
 .main-features__app_design::before {
-    background-image: url("../svg/project_description_icons/app_desigh_icon.svg");
+    background-image: url("svg/project_description_icons/app_desigh_icon.svg");
 }
 .main-features__development::before {
-    background-image: url("../svg/project_description_icons/development_icon.svg");
+    background-image: url("svg/project_description_icons/development_icon.svg");
 }
 .main-features__customization::before {
-    background-image: url("../svg/project_description_icons/customization_icon.svg");
+    background-image: url("svg/project_description_icons/customization_icon.svg");
 }
 .main-features__marketing::before {
-    background-image: url("../svg/project_description_icons/marketing_icon.svg");
+    background-image: url("svg/project_description_icons/marketing_icon.svg");
 }
 .main-features__content:hover::after {
     background: #c7b299;
@@ -362,16 +362,16 @@
     color: #c7b299;
 }
 .main-features__app_design:hover::before {
-    background-image: url("../svg/project_description_icons/app_desigh_icon_active.svg");
+    background-image: url("svg/project_description_icons/app_desigh_icon_active.svg");
 }
 .main-features__development:hover::before {
-    background-image: url("../svg/project_description_icons/development_icon_active.svg");
+    background-image: url("svg/project_description_icons/development_icon_active.svg");
 }
 .main-features__customization:hover::before {
-    background-image: url("../svg/project_description_icons/customization_icon_active.svg");
+    background-image: url("svg/project_description_icons/customization_icon_active.svg");
 }
 .main-features__marketing:hover::before {
-    background-image: url("../svg/project_description_icons/marketing_icon_active.svg");
+    background-image: url("svg/project_description_icons/marketing_icon_active.svg");
 }
 .project-ideas {
     background: #fbfaf8;
@@ -654,21 +654,21 @@
     transition: .2s ease;
 }
 .card-img-active__share-button {
-    background-image: url("../svg/card_img_icons/share_icon.svg");
+    background-image: url("svg/card_img_icons/share_icon.svg");
 }
 .card-img-active__search-button {
-    background-image: url("../svg/card_img_icons/search_icon.svg");
+    background-image: url("svg/card_img_icons/search_icon.svg");
     height: 25px;
 }
 .card-img-active__share-button:hover,
 .card-img-active__share-button:focus {
     cursor: pointer;
-    background-image: url("../svg/card_img_icons/share_icon_active.svg");
+    background-image: url("svg/card_img_icons/share_icon_active.svg");
 }
 .card-img-active__search-button:hover,
 .card-img-active__search-button:focus {
     cursor: pointer;
-    background-image: url("../svg/card_img_icons/search_icon_active.svg");
+    background-image: url("svg/card_img_icons/search_icon_active.svg");
 }
 .latest-projects-card:hover {
     cursor: pointer;
@@ -721,13 +721,13 @@
 }
 @font-face {
     font-family: "Raleway"; 
-    src: url("../fonts/Raleway-Regular.ttf") format("truetype"); 
+    src: url("fonts/Raleway-Regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
 }
 @font-face {
     font-family: "Montserrat"; 
-    src: url("../fonts/Montserrat-Regular.ttf") format("truetype"); 
+    src: url("fonts/Montserrat-Regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
 }
